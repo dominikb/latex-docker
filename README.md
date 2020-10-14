@@ -7,7 +7,7 @@ Check out https://github.com/James-Yu/LaTeX-Workshop
 
 1. Pull the image
 
-`docker pull docker.pkg.github.com/dominikb/latex-docker:latest`
+`docker pull ghcr.io/dominikb/latex-docker:latest`
 
 2. Change the plugin configuration in VSCode settings
 
