@@ -1,3 +1,10 @@
-FROM tianon/latex
+# adapted FROM tianon/latex
+FROM debian:stretch-slim
 
-RUN apt-get update && apt install -y python-pygments
+RUN apt-get update && apt-get install -y \
+		biber \
+		latexmk \
+		make \
+		texlive-full \
+    python-pygments \
+	&& rm -rf /var/lib/apt/lists/*
